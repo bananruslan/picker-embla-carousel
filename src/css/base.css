@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
 html {
   -webkit-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
@@ -7,9 +7,19 @@ html {
   line-height: 1.15;
   background-color: var(--background-site);
   font-size: 62.5%;
-  font-family: Inter, 'system-ui', -apple-system, BlinkMacSystemFont, 'Segoe UI',
-    Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
-    'Segoe UI Symbol';
+  font-family:
+    Inter,
+    "system-ui",
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Helvetica,
+    Arial,
+    sans-serif,
+    "Apple Color Emoji",
+    "Segoe UI Emoji",
+    "Segoe UI Symbol";
 }
 *,
 *::before,
@@ -21,6 +31,14 @@ body {
   color: var(--text-high-contrast);
   font-size: 1.6rem;
   line-height: 1.65;
+  margin: 0;
+  height: 100vh;
+  overflow: hidden;
+}
+#app {
+  height: 100%;
+  display: flex;
+  align-items: center;
 }
 .theme-light {
   --brand-primary: rgb(47, 112, 193);
